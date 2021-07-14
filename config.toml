@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://eventtemplate.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://nairobi2021.satrdays.org/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = "hugo-satrdays-theme"
@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Nairobi"
+  description = "R conference in Nairobi, Kenya"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -80,8 +80,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Nairobi"
+    subtitle = "A virtual conference for users of the R Language on 4th September"
     bg = true
     buttonText = "Tell me more"
 
@@ -97,13 +97,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      description = "4th September (Virtual)"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      description = "Talks and Workshops"
       url = "#"
 
     [[params.services.row.list]]
@@ -121,7 +121,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
+      description = "Free"
       url = "#"
 
     [[params.services.row.list]]
@@ -133,7 +133,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -161,7 +161,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/test3490"
@@ -170,7 +170,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Hackathon section
   [params.hackathon]
-    enable = true
+    enable = false
     bg = false
     title = "Hackathon"
     subtitle="Can you _Hack_ it?"
@@ -189,8 +189,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Who's saying what"
+    title = "SPEAKERS"
+    subtitle = "Our speakers for SatRday Nairobi 2021. Click on their profiles for more information about their talks."
     bg = true
 
   # Schedule section
@@ -201,7 +201,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Important Dates [About] section
   [params.about]
-    enable = true
+    enable = false
     title = "Important Dates"
     subtitle = "Be prepared!"
     endpoint = "Conference"
@@ -235,7 +235,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Location section
   [params.location]
-    enable = true
+    enable = false
     title = "Location title"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
@@ -249,55 +249,94 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     subtitle = "The people putting it together"
     bg = false
     description = ""
-    speakers = "Speakers"
+    speakers = ""
     
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      img = "faith.jpg"
+      name = "Faith Musili"
+      position = "Data Analyst"
+      bio = ""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/musili_faith"],
+        ["fa-github", "https://github.com/faithmusili"],
+        ["fa-linkedin", "https://www.linkedin.com/in/faith-musili-8a9b61b7/"]
+      ]
+
+
+    [[params.team.members]]
+      img = "chris.jpg"
+      name = "Christopher Maronga"
+      position = "R Programmer"
+      bio = ""
+      social = [
+        ["fa-twitter", "https://twitter.com/krissianyo"],
+        ["fa-github", "https://github.com/ChristopherMaronga"],
+        ["fa-linkedin", "https://www.linkedin.com/in/christopher-maronga-61031b7a/"]
+      ]
+
+
+    [[params.team.members]]
+      img = "njoki.jpg"
+      name = "Njoki Lucy"
+      position = "Biostatistician"
+      bio = ""
+      social = [
+        ["fa-twitter", "https://twitter.com/lucy_njokinjuki"],
+        ["fa-github", "https://github.com/LucyNjoki"],
+        ["fa-linkedin", "https://www.linkedin.cn/in/lucy-njoki/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+     img = "mutiso.jpg"
+      name = "John Mutiso"
+      position = "Statistician"
+      bio = ""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/johnmutiso_"],
+        ["fa-github", "https://github.com/johnmutiso"],
+        ["fa-linkedin", "https://www.linkedin.com/in/johnmutiso/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+    img = "maggie.jpg"
+      name = "Margaret Wanjiru"
+      position = "Risk Analyst"
+      bio = ""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/magwanjiru"],
+        ["fa-github", ""],
+        ["fa-linkedin", "https://www.linkedin.com/in/margaret-kinyanjui-393661137/"]
       ]
+      
+    [[params.team.members]]
+    img = "kigen.jpg"
+      name = "Kigen Tembu"
+      position = "Data Scientist"
+      bio = ""
+      social = [
+        ["fa-twitter", "https://twitter.com/kigtembu"],
+        ["fa-github", "https://github.com/kigtembu"],
+        ["fa-linkedin", "https://www.linkedin.com/in/kigen-tembu-61097393/"]
+      ]
+
+    [[params.team.members]]
+      img = "shel.jpg"
+      name = "Shelmith Kariuki"
+      position = ""
+      bio = ""
+      social = [
+        ["fa-twitter", "https://twitter.com/Shel_Kariuki/"],
+        ["fa-github", "https://github.com/Shelmith-Kariuki"],
+        ["fa-linkedin", "https://www.linkedin.com/in/shelmith-kariuki-44351363/"]
+        ]
 
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement

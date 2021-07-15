@@ -328,7 +328,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "shel.jpg"
       name = "Shelmith Kariuki"
-      position = ""
+      position = "Data Analytics Consultant"
       bio = ""
       social = [
         ["fa-twitter", "https://twitter.com/Shel_Kariuki/"],

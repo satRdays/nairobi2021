@@ -315,7 +315,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
       
     [[params.team.members]]
-    img = "kigen.jpg"
+    img = "kigen.jpeg"
       name = "Kigen Tembu"
       position = "Data Scientist"
       bio = ""

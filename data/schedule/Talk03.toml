@@ -1,0 +1,27 @@
+modalID= 3
+
+[talk_details]
+title = "Third Talk"
+subtitle = "Third Subtitle"
+date = 1970-01-01
+startsAt = "00:02:00"
+endsAt = "00:03:00"
+img = "roundicons.png"
+preview = "faceholder.png"
+category = "Category 1"
+description = "Describe 1"
+talk = true
+
+[speaker]
+name = "Speaker Name 03"
+organisation = "Company 3"
+role = "Role 1"
+img = "faceholder.png"
+bio = "Speaker Name 03 did stuff"
+social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"]
+      ]
+link = "#"

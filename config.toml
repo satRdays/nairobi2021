@@ -131,7 +131,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       url = "#"
 
   # Register section
+  
   # You only need ONE of these active
+    
   [params.tito]
     enable = false
     title = "Register"
@@ -141,7 +143,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -256,7 +258,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faith.jpg"
+      img = "faith.jpeg"
       name = "Faith Musili"
       position = "Data Analyst"
       bio = ""
@@ -393,7 +395,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "nairobi@rladies.org"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."

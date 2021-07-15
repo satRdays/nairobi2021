@@ -1,6 +1,5 @@
-modalID= 5
-
 [talk_details]
+modalID= 5
 title = "Fifth Talk"
 subtitle = "Fifth Subtitle"
 date = 1970-01-01
@@ -8,14 +7,14 @@ startsAt = "00:04:00"
 endsAt = "00:05:00"
 img = "roundicons.png"
 preview = "faceholder.png"
-category = "Category 1"
-description = "Describe 1"
+category = "Category 5"
+description = "Describe 5"
 talk = true
 
 [speaker]
 name = "Speaker Name 05"
 organisation = "Company 5"
-role = "Role 1"
+role = "Role 5"
 img = "faceholder.png"
 bio = "Speaker Name 05 did stuff"
 social = [

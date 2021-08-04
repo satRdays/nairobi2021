@@ -1,22 +1,22 @@
 [talk_details]
 modalID= 5
-title = "Fifth Talk"
-subtitle = "Fifth Subtitle"
+title = "Making my first map in R"
+subtitle = ""
 date = 1970-01-01
-startsAt = "00:04:00"
-endsAt = "00:05:00"
+startsAt = "11:45"
+endsAt = "13:10"
 img = "roundicons.png"
 preview = "faceholder.png"
-category = "Category 5"
-description = "Describe 5"
+category = "Category 6"
+description = "Describe 6"
 talk = true
 
 [speaker]
-name = "Speaker Name 05"
-organisation = "Company 5"
-role = "Role 5"
+name = "Speaker Name 06"
+organisation = "Company 6"
+role = "Role 6"
 img = "faceholder.png"
-bio = "Speaker Name 05 did stuff"
+bio = "Speaker Name 06 did stuff"
 social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],

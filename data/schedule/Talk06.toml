@@ -1,26 +1,27 @@
 [talk_details]
 modalID= 6
-title = "Sixth Talk"
-subtitle = "Sixth Subtitle"
+title = "Modularising shiny apps"
+subtitle = ""
 date = 1970-01-01
-startsAt = "00:05:00"
-endsAt = "00:06:00"
-img = "roundicons.png"
-preview = "faceholder.png"
+startsAt = "11:45"
+endsAt = "13:10"
+img = "tor.jpg"
+preview = "tor.jpg"
 category = "Category 6"
 description = "Describe 6"
 talk = true
 
 [speaker]
-name = "Speaker Name 06"
-organisation = "Company 6"
-role = "Role 6"
-img = "faceholder.png"
+name = "Dr. Tor-G. Vågen"
+organisation = "World Agroforestry (ICRAF)"
+role = "Senior Scientist & Head of CIFOR-ICRAF Spatial Data Science and Applied Learning Lab (SPACIAL)"
+img = "tor.jpg"
 bio = "Speaker Name 06 did stuff"
 social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
+        ["fa-twitter", "https://twitter.com/tgvagen"],
+        ["fa-github", "https://github.com/tvagen"],
         ["fa-linkedin", "#"],
         ["fa-globe", "#"]
       ]
 link = "#"
+

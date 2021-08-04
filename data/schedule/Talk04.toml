@@ -1,26 +1,26 @@
 [talk_details]
 modalID= 4
-title = "Fourth Talk"
-subtitle = "Fourth Subtitle"
+title = "TidyTuesday"
+subtitle = ""
 date = 1970-01-01
-startsAt = "00:03:00"
-endsAt = "00:04:00"
-img = "roundicons.png"
-preview = "faceholder.png"
+startsAt = "11:20"
+endsAt = "11:40"
+img = "maggie.jpg"
+preview = "maggie.jpg"
 category = "Category 4"
-description = "Describe 4"
+description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Speaker Name 04"
-organisation = "Company 4"
-role = "Role 4"
-img = "faceholder.png"
-bio = "Speaker Name 04 did stuff"
+name = "Margaret Wanjiru"
+organisation = "Financial Services"
+role = "Risk Analyst"
+img = "maggie.jpg"
+bio = "Margaret Wanjiru is a risk analyst in the insurance industry that helps the business determine the level of financial risks involved when considering the company's investments and operational costs. She is also one of the R-Ladies Nairobi Co-organizers. Analytics aside, she is also a nature enthusiast and enjoys cycling and music."
 social = [
-        ["fa-twitter", "#"],
+        ["fa-twitter", "https://mobile.twitter.com/magwanjiru"],
         ["fa-github", "#"],
-        ["fa-linkedin", "#"],
-        ["fa-globe", "#"]
+        ["fa-linkedin", "https://www.linkedin.com/in/margaret-kinyanjui"],
+        ["fa-globe", "https://wanjirumaggie45.medium.com/"]
       ]
 link = "#"

@@ -1,27 +1,27 @@
 
 [talk_details]
 modalID= 2
-title = "Second Talk"
-subtitle = "second Subtitle"
+title = "Introduction to data manipulation in R"
+subtitle = ""
 date = 1970-01-01
-startsAt = "00:01:00"
-endsAt = "00:02:00"
-img = "roundicons.png"
-preview = "faceholder.png"
+startsAt = "9:50"
+endsAt = "11:15"
+img = "chris.jpg"
+preview = "chris.jpg"
 category = "Category 2"
-description = "Describe 2"
+description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Speaker Name 02"
-organisation = "Company 2"
-role = "Role 2"
-img = "faceholder.png"
-bio = "Speaker Name 02 did stuff"
+name = "Christopher Maronga"
+organisation = "University of Oxford, NDORMS"
+role = "R Programmer"
+img = "chris.jpg"
+bio = "Chris holds a BSC. in Mathematics from Jomo Kenyatta University of Technology and is currently finalising an MSC. in Statistical Science from Strathmore University. Since his graduation, Chris is currently an R programmer at  University of Oxford, NDORMS. Previously, he worked at KEMRI in different capacities and different projects and rose within the ranks i.e  from an intern, assistant data manager, technical advisor in data collection and management and as a data manager(clinical). Chris has over  6 years’ experience in health research data management and analysis. Mostly working using R, SQL and REDCap. Leveraging R’s API capability to seamlessly extract data from data repositories such as RDBMs and web-based databases such as REDCap ."
 social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"],
+        ["fa-twitter", "https://twitter.com/krissianyo"],
+        ["fa-github", "https://github.com/ChristopherMaronga"],
+        ["fa-linkedin", "https://www.linkedin.com/in/christopher-maronga-61031b7a/"],
         ["fa-globe", "#"]
       ]
 link = "#"

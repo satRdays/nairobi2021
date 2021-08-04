@@ -1,18 +1,18 @@
 [talk_details]
 modalID= 3
-title = "Third Talk"
-subtitle = "Third Subtitle"
+title = "Spatial Analytics in R"
+subtitle = ""
 date = 1970-01-01
-startsAt = "00:02:00"
-endsAt = "00:03:00"
+startsAt = "09:50"
+endsAt = "11:15"
 img = "roundicons.png"
 preview = "faceholder.png"
 category = "Category 3"
-description = "Describe 3"
+description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Speaker Name 03"
+name = "Michael Osunga"
 organisation = "Company 3"
 role = "Role 1"
 img = "faceholder.png"

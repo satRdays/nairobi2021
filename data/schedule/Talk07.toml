@@ -1,0 +1,26 @@
+[talk_details]
+modalID= 7
+title = "Making my first Shiny app"
+subtitle = ""
+date = 1970-01-01
+startsAt = "13:30"
+endsAt = "14:55"
+img = "bryson.jpg"
+preview = "bryson.jpg"
+category = "Category 6"
+description = "Describe 6"
+talk = true
+
+[speaker]
+name = "Bryson Mwamburi"
+organisation = "Kantar"
+role = "Data Scientist"
+img = "bryson.jpg"
+bio = "Bryson Mwamburi is a Data Scientist at Kantar. Kantar is a data analytics and brand consulting company, based in London, England that helps clients understand people and inspire growth. Bryson is a recipient of Facebook's Secure & Private AI, Intel's Edge AI scholarships and a Big Data Mastery Award from IBM, he contributes to the client and business success through analytics. Away from wrangling insights, Mwamburi enjoys motorcycling, rugby and swimming, having represented the country in the latter. An avid reader and self-proclaimed master chef, he pairs both with a good glass of wine and the occasional tinge of a sunset."
+social = [
+        ["fa-twitter", "https://twitter.com/tgvagen"],
+        ["fa-github", "https://github.com/tvagen"],
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"]
+      ]
+link = "#"

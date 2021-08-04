@@ -12,11 +12,11 @@ description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Maëlle Salmon"
+name = "Dr. Maëlle Salmon"
 organisation = "rOpenSci"
 role = "Research Software Engineer"
 img = "maelle2.jpg"
-bio = "Maëlle Salmon is a R(esearch) Software Engineer, part-time with rOpenSci. She also enjoys blogging about R, in particular R package development (on her personal blog and R-hub blog). She is a volunteer software review editor for rOpenSci and the main manager of R-Ladies Global Twitter account; as well as a former R Weekly curator. She's based in Nancy, France"
+bio = "Dr. Maëlle Salmon is a R(esearch) Software Engineer, part-time with rOpenSci. She also enjoys blogging about R, in particular R package development (on her personal blog and R-hub blog). She is a volunteer software review editor for rOpenSci and the main manager of R-Ladies Global Twitter account; as well as a former R Weekly curator. She's based in Nancy, France"
 social = [
         ["fa-twitter", "https://mobile.twitter.com/ma_salmon"],
         ["fa-github", "https://github.com/maelle"],

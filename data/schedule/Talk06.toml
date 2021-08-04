@@ -5,18 +5,18 @@ subtitle = ""
 date = 1970-01-01
 startsAt = "11:45"
 endsAt = "13:10"
-img = "tor.jpg"
-preview = "tor.jpg"
+img = "tor2.jpg"
+preview = "tor2.jpg"
 category = "Category 6"
-description = "Describe 6"
+description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
 name = "Dr. Tor-G. Vågen"
 organisation = "World Agroforestry (ICRAF)"
 role = "Senior Scientist & Head of CIFOR-ICRAF Spatial Data Science and Applied Learning Lab (SPACIAL)"
-img = "tor.jpg"
-bio = "Speaker Name 06 did stuff"
+img = "tor2.jpg"
+bio = ""
 social = [
         ["fa-twitter", "https://twitter.com/tgvagen"],
         ["fa-github", "https://github.com/tvagen"],

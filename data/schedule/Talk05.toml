@@ -7,16 +7,16 @@ startsAt = "11:45"
 endsAt = "13:10"
 img = "roundicons.png"
 preview = "faceholder.png"
-category = "Category 6"
-description = "Describe 6"
+category = "Category 5"
+description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Speaker Name 06"
-organisation = "Company 6"
-role = "Role 6"
+name = ""
+organisation = ""
+role = ""
 img = "faceholder.png"
-bio = "Speaker Name 06 did stuff"
+bio = ""
 social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],

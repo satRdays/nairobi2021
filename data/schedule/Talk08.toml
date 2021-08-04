@@ -1,0 +1,26 @@
+[talk_details]
+modalID= 8
+title = "Introduction to tidy models in R"
+subtitle = ""
+date = 1970-01-01
+startsAt = "13:30"
+endsAt = "14:55"
+img = "asmae2.png"
+preview = "asmae2.png"
+category = "Category 7"
+description = "Talk abstract coming soon"
+talk = true
+
+[speaker]
+name = "Asmae Toumi"
+organisation = "PursueCare"
+role = "Director of Analytics and Research"
+img = "asmae2.png"
+bio = "Asmae Toumi is the Director of Analytics and Research at PursueCare, a telehealth company specializing in treating substance use disorder. By night, she is the editor-in-chief of Hockey-Graphs, a hockey sports analytics blog."
+social = [
+        ["fa-twitter", "https://mobile.twitter.com/asmae_toumi"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"]
+      ]
+link = "#"

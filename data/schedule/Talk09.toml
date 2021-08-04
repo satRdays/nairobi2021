@@ -1,18 +1,18 @@
 [talk_details]
-modalID= 3
-title = "Spatial Analytics in R"
+modalID= 9
+title = "Data visualisation tips"
 subtitle = ""
 date = 1970-01-01
-startsAt = "09:50"
-endsAt = "11:15"
+startsAt = "15:00"
+endsAt = "15:40"
 img = "roundicons.png"
 preview = "faceholder.png"
-category = "Category 3"
+category = "Category 5"
 description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Michael Osunga"
+name = ""
 organisation = ""
 role = ""
 img = "faceholder.png"

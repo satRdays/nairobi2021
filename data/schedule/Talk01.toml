@@ -1,13 +1,13 @@
 
 [talk_details]
 modalID= 1
-title = "Telling Stories with Data"
-subtitle = "Communication in Data Science"
+title = "Telling Stories with Data: Communication in Data Science"
+subtitle = ""
 date = 1970-01-01
 startsAt = "9:00"
 endsAt = "9:45"
-img = "kamande.jpg"
-preview = "kamande.jpg"
+img = "kamande2.jpg"
+preview = "kamande2.jpg"
 category = "Category 1"
 description = "Talk abstract coming soon"
 talk = true
@@ -16,7 +16,7 @@ talk = true
 name = "Samuel Kamande"
 organisation = "Formerly at Ajua"
 role = "Data Sientist"
-img = "kamande.jpg"
+img = "kamande2.jpg"
 bio = "Kamande is a Data Scientist based in Nairobi. He most recently worked at Ajua, the Integrated Customer Experience Platform. In this role, he led a team that provided data support for various product streams and developed new products to drive consumer understanding through advanced analytics and machine learning. He has also been a Data Science curriculum consultant with Moringa School, where after helping develop the curriculum, he now helps to continuously improve and align to the changing African data science dynamics.Kamande previously worked at Nielsen as a Data Science Associate for East Africa. He supported the Commercial team to deliver Quality Retail Data to clients and delivered technical consultancy on Data Science related retail audit queries across FMCG categories. He was also part of the Data Science Global Emerging Leaders program. He holds a Masters’ degree in Statistics and a Masters’ degree in Computational Intelligence from The University of Nairobi. He has published papers on understanding the consumption and viewing habits of the Kenyan consumer and locally available data in peer reviewed journals and presented at various conferences in Africa. He is also NPS certified and facilitates Integrated CX masterclasses in Africa."
 social = [
         ["fa-twitter", "https://mobile.twitter.com/kamandeh_"],

@@ -1,0 +1,128 @@
+{{ "<!-- schedule Grid Section -->" | safeHTML }}
+<section id="schedule" {{ if .Site.Params.schedule.bg }}
+class="bg-light-gray"
+{{ end }}>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.schedule.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.schedule.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+  <div class="Talks">
+      {{ range .Site.Data.projects}}
+      {{ if eq .category "Speaker" }}
+      <a href="#scheduleModal{{ .modalID }}" class="Talk" data-toggle="modal">
+        <img src="img/schedule/{{ .preview }}" class="Talk-image" alt="">
+        <div class="Talk-title">
+          <h4>{{ .title | markdownify }}</h4>
+          <p class="text-muted">{{ .client | markdownify }}</p>
+        </div>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+    </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Schedule</h2>
+          <h4>Schedule is subject to change. 
+          </h4>
+            <table class="table table-bordered", style="width: 90%; margin-left: 100px;">
+            <thead>
+              <tr>
+                <th scope="col"><center>Time (GMT + 3)</center></th>
+                <th scope="col"><center style="color:blue;">Beginner Worskshop (BW)</center></th>
+                <th scope="col"></th>
+                <th scope="col"><center style="color:green;">Intermediate/Advanced Worskshop (IAW)</center></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row"><center>9:00 - 9:45 <br>(45 mins)</br></center></th>
+                <td colspan="3"><b style="color:red;"> (Keynote)</b><br> <b> Telling Stories with Data: Communication in Data
+Science </b> <br> <i> Samuel Kamande </i>  </td>
+              </tr>
+
+              <tr>
+                <th scope="row"><center>9:50 - 11:15 <br>(85 mins each)</br></center> </th>
+                
+                <td colspan="1"><b style="color:blue;"> (BW)</b><br> <b> Introduction to data manipulation in R </b> <br> <i> Christopher Maronga </i></br> </td>
+                <th rowspan="2"></th>
+                <td colspan="3"><b style="color:green;"> (IAW)</b><br> <b>Spatial Analytics in R </b> <br> <i> Michael Osunga </i></br>
+                </td>
+              </tr>
+              
+              <tr></tr>
+              <tr>
+                <th scope="row"><center>11:15 - 11:20 <br>(5 mins)</br></center></th>
+                <td colspan="3"> <b> Break </b>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row"><center>11:20 - 11:40 <br>(20 mins)</br></center></th>
+                <td colspan="3"><b style="color:brown;"> (Talk)</b><br> <b> TidyTuesday </b> <br> <i> John Mutiso and Maggie Wanjiru </i>
+                </td>
+              </tr>
+              
+              <tr>
+                <th scope="row"><center>11:45 - 13:10 <br>(85 mins each)</br></center></th>
+              
+                
+                <td colspan="1"><b style="color:blue;"> (BW)</b><br> <b> Making my first map in R </b> <br> <i> TBD </i> 
+                </td>
+                <th rowspan="2"></th>
+                <td colspan="1"><b style="color:green;"> (IAW)</b><br> <b>Modularising shiny apps </b> <br> <i> Dr. Tor Vagen </i>
+                </td>
+              </tr>
+              
+              <tr></tr>
+              <tr>
+                <th scope="row"><center>13:10 - 13:30 <br>(20 mins)</br></center></th>
+                <td colspan="3"> <b> Lunch </b>
+                </td>
+              </tr>
+
+                <th scope="row"><center>15:00 - 15:40 <br>(40 mins)</br></center></th>
+                <td colspan="3"><b style="color:brown;"> (Talk)</b><br> <b> Data visualisation tips </b> <br> <i> TBD </i>
+                </td>
+              </tr>
+              
+               <tr></tr>
+              <tr>
+                <th scope="row"><center>15:40 - 15:45 <br>(5 mins)</br></center></th>
+                <td colspan="3"> <b> Break </b>
+                </td>
+              </tr>
+              
+       
+              <tr>
+
+                <th scope="row"><center>15:45 - 16:30 <br>(45 mins)</br></center></th>
+                <td colspan="3"><b style="color:red;"> (Keynote)</b><br><b> Working on projects in R </b> <br> <i> Dr. Maëlle Salmon </i>
+                </td>
+              </tr>
+   
+              <tr>
+
+                <th scope="row"><center>16:35 - 18:00 <br>(85 mins)</br></center></th>
+                <td colspan="3"><b style="color:brown;"> (Talk)</b><br> <b> Customizing RMarkdown </b> <br> <i> By Dr. Mine Çetinkaya-Rundel </i>
+                </td>
+              </tr>
+ 
+               <tr>
+
+                <th scope="row"> <center>18:00 - 18:10 <br>(10 mins)</br></center></th>
+                <td colspan="3"> <b> Closing Remarks </b> <br> <i> satRday Nairobi Organisers </i>
+                </td>
+              </tr>
+          
+            </tbody>
+          </table>
+
+
+        </div>
+      </div>
+</section>

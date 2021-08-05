@@ -5,17 +5,17 @@ subtitle = ""
 date = 1970-01-01
 startsAt = "09:50"
 endsAt = "11:15"
-img = "roundicons.png"
-preview = "faceholder.png"
+img = "osunga2.jpeg"
+preview = "osunga2.jpeg"
 category = "Category 3"
 description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = "Michael Osunga"
-organisation = ""
-role = ""
-img = "faceholder.png"
+name = "Michael Otieno Osunga"
+organisation = " Regional Centre for Mapping of Resources for Development (RCMRD)"
+role = "Technical Expert - Weather and Climate"
+img = "osunga2.jpeg"
 bio = ""
 social = [
         ["fa-twitter", "#"],

@@ -16,13 +16,18 @@
           <div class="modal-body">
             <h2>{{ .talk_details.title  | markdownify }}</h2>
             <p class="item-intro text-muted">{{ .talk_details.subtitle | markdownify }}</p>
-            <p><i>{{ .talk_details.description | markdownify }}</i></p>
+            <p><i style= "font-size: 16px;">{{ .talk_details.description | markdownify }}</i></p>
             <img class="img-responsive img-centered" src="img/portfolio/{{ .talk_details.img }}" alt="">
             <ul class="list-inline">
               <li> {{ .speaker.organisation | markdownify}} </li>
               <li> {{ .speaker.role | markdownify }} </li>
             </ul>
             <p class="item-intro"> {{ .speaker.bio | markdownify }}</p>
+                <ul class="list-inline social-buttons">
+                {{ range .speaker.social }}
+                  <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                {{ end }}
+              </ul>
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close details</button>
           </div>
         </div>

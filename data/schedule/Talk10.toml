@@ -8,7 +8,7 @@ endsAt = "16:30"
 img = "maelle2.jpg"
 preview = "maelle2.jpg"
 category = "Category 10"
-description = "Talk abstract coming soon"
+description = "A good R project organization is useful even if you do not have collaborators as demanding as The Little Prince. But how to do that? Do you put the project in some sort of box? In this talk , Dr. Maëlle  will present tools that are good to know: git, here, renv, targets, orderly… She’ll also report whether making an R package out of everything is always a good idea. After this presentation you will have learnt tips and tricks to apply as you like in your R projects. She hopes that every one of you will learn at least one new thing!"
 talk = true
 
 [speaker]

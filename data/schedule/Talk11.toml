@@ -5,22 +5,22 @@ subtitle = ""
 date = 1970-01-01
 startsAt = "16:35"
 endsAt = "18:00"
-img = "faceholder.png"
-preview = "faceholder.png"
+img = "mine2.jpg"
+preview = "mine2.jpg"
 category = "Category 8"
-description = "Talk abstract coming soon"
+description = "For data analysis output to be reproducible, the data and code should be assembled in a way such that results (e.g. tables and figures) can be re-created. In this workshop we will demonstrate a workflow for reproducible data science with R, R Markdown and discuss how R Markdown documents of various flavours and output types can be customized to achieve a customized look and style. In addition to customization, we will also touch on using RStudio's visual editor for authoring in R Markdown."
 talk = true
 
 [speaker]
 name = "Dr. Mine Çetinkaya-Rundel"
-organisation = ""
-role = ""
-img = "faceholder.png"
-bio = ""
+organisation = "Duke University and RStudio"
+role = "Professor, Data Scientist and Professional Educator"
+img = "mine2.jpg"
+bio = "Mine Çetinkaya-Rundel is Professor of the Practice at the Department of Statistical Science at Duke University and Data Scientist and Professional Educator at RStudio. Mine works on integrating computation into the undergraduate statistics curriculum, using reproducible research methodologies and analysis of real and complex datasets. She also organizes ASA DataFest, works on the OpenIntro project, teaches the popular Statistics with R MOOC on Coursera, and is the creator and maintainer of Data Science in a Box."
 social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"],
+        ["fa-twitter", "https://twitter.com/minebocek"],
+        ["fa-github", "https://github.com/mine-cetinkaya-rundel"],
+        ["fa-linkedin", "https://www.linkedin.com/in/minec/"],
         ["fa-globe", "#"]
       ]
 link = "#"

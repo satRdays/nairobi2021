@@ -1,26 +1,26 @@
 [talk_details]
 modalID= 12
-title = ""
+title = "TidyTuesday"
 subtitle = ""
 date = 1970-01-01
-startsAt = "16:35"
-endsAt = "18:00"
-img = "faceholder.png"
-preview = "faceholder.png"
+startsAt = "11:20"
+endsAt = "11:40"
+img = "mutiso.jpg"
+preview = "mutiso.jpg"
 category = "Category 8"
-description = ""
+description = "The #TidyTuesday community continues to grow daily and is open to anyone looking to improve their data wrangling and visualization skills. The project was borne out of the R4DS Online Learning Community and the R for Data Science textbook, with an emphasis placed on understanding how to summarize and arrange data to make meaningful charts with R and various packages within the tidyverse ecosystem. This workshop will cover the steps taken to participate and the benefits and goals achieved in the process. The workshop will also highlight the welcoming inclusive and online community with the help of the hashtag on Twitter with an emphasis on learning or expanding one’s skill set through different data projects posted weekly."
 talk = true
 
 [speaker]
-name = ""
-organisation = ""
-role = ""
-img = "faceholder.png"
-bio = ""
+name = "John Mutiso"
+organisation = "Phastar"
+role = "Statistical Programmer"
+img = "mutiso.jpg"
+bio = "Mutiso is a creative and enthusiastic Statistician with experience in clinical health research and the pharma industry. He has experience in statistical data analysis, visualization and reporting using R & SAS. He possess excellent analytical and communication skills and a dedicated approach to working in a controlled environment."
 social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"],
+        ["fa-twitter", "https://mobile.twitter.com/johnmutiso_"],
+        ["fa-github", "https://github.com/johnmutiso"],
+        ["fa-linkedin", "linkedin.com/in/johnmutiso"],
         ["fa-globe", "#"]
       ]
 link = "#"

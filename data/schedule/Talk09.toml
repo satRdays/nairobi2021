@@ -5,22 +5,22 @@ subtitle = ""
 date = 1970-01-01
 startsAt = "15:00"
 endsAt = "15:40"
-img = "roundicons.png"
-preview = "faceholder.png"
+img = "kashni2.jpg"
+preview = "kashni2.jpg"
 category = "Category 5"
 description = "Talk abstract coming soon"
 talk = true
 
 [speaker]
-name = ""
+name = "Dr. Ilya Kashnitsky"
 organisation = ""
 role = ""
-img = "faceholder.png"
+img = "kashni2.jpg"
 bio = ""
 social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"],
-        ["fa-globe", "#"]
+        ["fa-twitter", "https://twitter.com/ikashnitsky?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"],
+        ["fa-github", "https://github.com/ikashnitsky"],
+        ["fa-linkedin", "https://www.linkedin.com/in/ikashnitsky/?originalSubdomain=dk"],
+        ["fa-globe", "https://ikashnitsky.github.io/"]
       ]
 link = "#"

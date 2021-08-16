@@ -8,7 +8,7 @@ endsAt = "14:55"
 img = "bryson2.jpg"
 preview = "bryson2.jpg"
 category = "Category 7"
-description = "Talk abstract coming soon"
+description = "Shiny offers data storytellers and end consumers the ability to publish and interact with insightful findings on the fly. In this session, we shall cover an introduction to Shiny alongside a few examples of Shiny Apps."
 talk = true
 
 [speaker]

@@ -1,0 +1,26 @@
+[talk_details]
+modalID= 14
+title = "Introduction to Mapping in R"
+subtitle = ""
+date = 1970-01-01
+startsAt = "16:35"
+endsAt = "18:00"
+img = "anne2.png"
+preview = "anne2.png"
+category = "Category 8"
+description = "This tutorial will provide an introduction to mapping and spatial data in R using African data. By the end of the tutorial, you should be able to load packages useful in making maps, have an understanding of the different spatial data types, and have plotted your first static and interactive maps with several data layers. We will focus on developing confidence in doing the basics really well in preference to straying too far into more advanced analyses. Our tutorials focus on flexible workflows that you can take away. The training material forms part of the afrimapr interactive learnr tutorials that we have created as part of the afrilearnr package (https://github.com/afrimapr/afrilearnr) described in this blog post : https://afrimapr.github.io/afrimapr.website/blog/2021/interactive-tutorials-for-african-maps/. Due to the time constraint the tutorial will not cover loading your own spatial data, or creating spatial data from data without spatial components. These topics are however covered in other afrimapr tutorials which are available online. There will be no need for learners to install R or RStudio. All learning material will be accessible via a web browser. Participants will need a stable internet connection for watching instructors' shared screens with video to be able to follow along."
+talk = true
+
+[speaker]
+name = "Dr Anne Treasure"
+organisation = "Talarify"
+role = ""
+img = "anne2.png"
+bio = "Anne is a research analyst and trainer at Talarify. She has a background in life sciences research and a strong interest in open science, open data and reproducible research."
+social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"],
+        ["fa-globe", "#"]
+      ]
+link = "#"
